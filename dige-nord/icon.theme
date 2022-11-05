@@ -1,0 +1,175 @@
+@charset "UTF-8";
+.nobrush, .frame-outer, .frame-inner {
+	fill: none;
+}
+
+/*** pixmaps ***/
+
+.breadcrumb .brush {
+	fill: #D8DEE9;
+}
+.breadcrumb .pen {
+	fill: none;
+	stroke: #D8DEE9;
+	stroke-width: 25.8739
+}
+
+.pixmap .brush {
+	fill: #D8DEE9;
+}
+.pixmap .brushActive {
+	fill: #007acc;
+}
+.pixmap .brushError {
+	fill: red;
+}
+.pixmap .pen {
+	fill: none;
+	stroke: #D8DEE9;
+	stroke-width: 25.8739;
+}
+.pixmap .penActive {
+	fill: none;
+	stroke: #007acc;
+	stroke-width: 25.8739;
+}
+.pixmap .penError {
+	fill: none;
+	stroke: red;
+	stroke-width: 25.8739;
+}
+
+.tabbar .brush {
+	fill: #D8DEE9;
+}
+
+.tabbar .pen {
+	fill: none;
+	stroke: #D8DEE9;
+	stroke-width: 25.8739
+}
+
+#explorerPane			.brush { fill: lightcoral; }
+#filerPane      		.brush { fill: #5461A1; }
+#logo					.brush { fill: #E62129; }
+#monoLogo				.brush { fill: #D8DEE9; }
+#outlinePane    		.brush { fill: #A0D9F6; }
+#outputPane     		.brush { fill: #ACCE22; }
+#projectPane    		.brush { fill: #F4B3B3; }
+#senderPane     		.brush { fill: mediumpurple; }
+#sessionPane    		.brush { fill: dodgerblue; }
+#shellPane				.brush { fill: deeppink; }
+#start          		.brush { fill: green; }
+#stop           		.brush { fill: firebrick; }
+#syncChannelA			.brush { fill: deeppink; }
+#syncChannelB			.brush { fill: dodgerblue; }
+#syncChannelC			.brush { fill: darkorange; }
+#syncChannelD			.brush { fill: mediumseagreen; }
+#transferPane   		.brush { fill: darkturquoise; }
+
+#colorDarkCyan			.brush { fill-opacity: 0.5; fill: darkcyan; }
+#colorDeepPink			.brush { fill-opacity: 0.5; fill: deeppink; }
+#colorForestGreen		.brush { fill-opacity: 0.5; fill: forestgreen; }
+#colorGoldenrod			.brush { fill-opacity: 0.5; fill: goldenrod; }
+#colorIndianRed			.brush { fill-opacity: 0.5; fill: indianred; }
+#colorMediumOrchid		.brush { fill-opacity: 0.5; fill: mediumorchid; }
+#colorMediumSlateBlue	.brush { fill-opacity: 0.5; fill: mediumslateblue; }
+#colorOlive				.brush { fill-opacity: 0.5; fill: olive; }
+#colorRed				.brush { fill-opacity: 0.5; fill: red; }
+#colorRoyalBlue			.brush { fill-opacity: 0.5; fill: royalblue; }
+#colorSteelBlue			.brush { fill-opacity: 0.5; fill: steelblue; }
+#colorTeal				.brush { fill-opacity: 0.5; fill: teal; }
+
+/*** symbols ***/
+
+.symbol {
+	font-family: 'Roboto Mono';
+	font-size: 255.212px;
+	font-weight: normal;
+	fill: #2E3440;
+	stroke: #2E3440;
+	stroke-width: 2.96615;
+}
+.symbolTunnel {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: #D8DEE9;
+	stroke: #D8DEE9;
+	stroke-width: 2.96615;
+}
+.symbolTunnelActive {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: #007acc;
+	stroke: #007acc;
+	stroke-width: 2.96615;
+}
+.symbolTunnelError {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: red;
+	stroke: red;
+	stroke-width: 2.96615;
+}
+
+#a .frame-outer, #A .frame-inner { stroke: mediumpurple; fill: mediumpurple; }
+#b .frame-outer, #B .frame-inner { stroke: slateblue; fill: slateblue; }
+#c .frame-outer, #C .frame-inner { stroke: hotpink; fill: hotpink; }
+#d .frame-outer, #D .frame-inner { stroke: chocolate; fill: chocolate; }
+#e .frame-outer, #E .frame-inner { stroke: cornflowerblue; fill: cornflowerblue; }
+#f .frame-outer, #F .frame-inner { stroke: tomato; fill: tomato; }
+#g .frame-outer, #G .frame-inner { stroke: crimson; fill: crimson; }
+#h .frame-outer, #H .frame-inner { stroke: lightcoral; fill: lightcoral; }
+#i .frame-outer, #I .frame-inner { stroke: mediumorchid; fill: mediumorchid; }
+#j .frame-outer, #J .frame-inner { stroke: goldenrod; fill: goldenrod; }
+#k .frame-outer, #K .frame-inner { stroke: dodgerblue; fill: dodgerblue; }
+#l .frame-outer, #L .frame-inner { stroke: coral; fill: coral; }
+#m .frame-outer, #M .frame-inner { stroke: yellowgreen; fill: yellowgreen; }
+#n .frame-outer, #N .frame-inner { stroke: mediumseagreen; fill: mediumseagreen; }
+#o .frame-outer, #O .frame-inner { stroke: darkorange; fill: darkorange; }
+#p .frame-outer, #P .frame-inner { stroke: darkturquoise; fill: darkturquoise; }
+#q .frame-outer, #Q .frame-inner { stroke: limegreen; fill: limegreen; }
+#r .frame-outer, #R .frame-inner { stroke: sandybrown; fill: sandybrown; }
+#s .frame-outer, #S .frame-inner { stroke: orchid; fill: orchid; }
+#t .frame-outer, #T .frame-inner { stroke: palevioletred; fill: palevioletred; }
+#u .frame-outer, #U .frame-inner { stroke: forestgreen; fill: forestgreen; }
+#v .frame-outer, #V .frame-inner { stroke: turquoise; fill: turquoise; }
+#w .frame-outer, #W .frame-inner { stroke: orange; fill: orange; }
+#x .frame-outer, #X .frame-inner { stroke: indianred; fill: indianred; }
+#y .frame-outer, #Y .frame-inner { stroke: salmon; fill: salmon; }
+#z .frame-outer, #Z .frame-inner { stroke: deeppink; fill: deeppink; }
+#num0 .frame-outer, #Num0 .frame-inner { stroke: orangered; fill: orangered; }
+#num1 .frame-outer, #Num1 .frame-inner { stroke: lightseagreen; fill: lightseagreen; }
+#num2 .frame-outer, #Num2 .frame-inner { stroke: orange; fill: orange; }
+#num3 .frame-outer, #Num3 .frame-inner { stroke: peru; fill: peru; }
+#num4 .frame-outer, #Num4 .frame-inner { stroke: mediumslateblue; fill: mediumslateblue; }
+#num5 .frame-outer, #Num5 .frame-inner { stroke: darkorchid; fill: darkorchid; }
+#num6 .frame-outer, #Num6 .frame-inner { stroke: lightsalmon; fill: lightsalmon; }
+#num7 .frame-outer, #Num7 .frame-inner { stroke: plum; fill: plum; }
+#num8 .frame-outer, #Num8 .frame-inner { stroke: darkred; fill: darkred; }
+#num9 .frame-outer, #Num9 .frame-inner { stroke: violet; fill: violet; }
+#and .frame-outer,      #And .frame-inner      { stroke: chocolate; fill: chocolate; }
+#angles .frame-outer,   #Angles .frame-inner   { stroke: cornflowerblue; fill: cornflowerblue; }
+#asterisk .frame-outer, #Asterisk .frame-inner { stroke: forestgreen; fill: forestgreen; }
+#at .frame-outer,       #At .frame-inner       { stroke: hotpink; fill: hotpink; }
+#braces .frame-outer,   #Braces .frame-inner   { stroke: lightcoral; fill: lightcoral; }
+#brackets .frame-outer, #Brackets .frame-inner { stroke: darkgreen; fill: darkgreen; }
+#dollar .frame-outer,   #Dollar .frame-inner   { stroke: goldenrod; fill: goldenrod; }
+#dot .frame-outer,      #Dot .frame-inner      { stroke: darkorchid; fill: darkorchid; }
+#equal .frame-outer,    #Equal .frame-inner    { stroke: firebrick; fill: firebrick; }
+#exclamation .frame-outer, #Exclamation .frame-inner { stroke: coral; fill: coral; }
+#minus .frame-outer,    #Minus .frame-inner    { stroke: darkturquoise; fill: darkturquoise; }
+#parenthesis .frame-outer, #Parenthesis .frame-inner { stroke: blueviolet; fill: blueviolet; }
+#percent .frame-outer,  #Percent .frame-inner  { stroke: crimson; fill: crimson; }
+#plus .frame-outer,     #Plus .frame-inner     { stroke: burlywood; fill: burlywood; }
+#plus .frame-outer,     #Plus .frame-inner     { stroke: darkkhaki; fill: darkkhaki; }
+#pound .frame-outer,    #Pound .frame-inner    { stroke: dodgerblue; fill: dodgerblue; }
+#power .frame-outer,    #Power .frame-inner    { stroke: mediumorchid; fill: mediumorchid; }
+#question .frame-outer, #Question .frame-inner { stroke: darkcyan; fill: darkcyan; }
+#quotes .frame-outer,   #Quotes .frame-inner   { stroke: indianred; fill: indianred; }
+#slash .frame-outer,    #Slash .frame-inner    { stroke: cadetblue; fill: cadetblue; }
+#snippet .frame-outer,  #Snippet .frame-inner  { stroke: deeppink; fill: deeppink; }
+#label .symbol,         #Label .symbol         { stroke: cornflowerblue; fill: cornflowerblue; }

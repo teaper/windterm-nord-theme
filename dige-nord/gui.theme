@@ -1,0 +1,849 @@
+ApplicationPalette {
+	qproperty-link: #007acc;
+	qproperty-windowDisabled: #2E3440;
+	qproperty-placeholderText: #3B4252;
+	qproperty-placeholderTextDisabled: #3B4252;
+	qproperty-placeholderTextInactive: #3B4252;	
+}
+
+QWidget {
+	font-family: "Roboto Mono", "Fira Code", "$(SystemFonts)";
+	font-size: 9pt;
+	background-color: #2E3440;
+	color: #bbbbbb;
+}
+
+QAbstractButton:disabled {
+	color: #555555;
+}
+
+QAbstractItemView {
+	outline: none;
+	background-color: #2E3440;
+}
+QAbstractItemView:active {
+	selection-background-color: #434C5E;
+}
+QAbstractItemView:!active {
+	selection-background-color: #80434C5E;
+}
+QAbstractItemView QLineEdit:focus {
+	border: 1px solid #007acc;
+	background-color: #434C5E;
+}
+QAbstractItemView QProgressBar {
+	max-height: 16px;
+}
+QAbstractItemView QToolButton:hover {
+	background-color: #222222;
+}
+QAbstractItemView QWidget {
+	background-color: transparent;
+}
+QAbstractItemView QScrollBar {
+	background-color: #2E3440;
+}
+QAbstractItemView #TitleLabel, QAbstractItemView #SubtitleLabel {
+	color: #bbbbbb;
+	selection-color: #4d90fe;
+	selection-background-color: transparent;
+}
+QAbstractItemView::item {
+	color: #bbbbbb;
+	padding: 2px;
+}
+QAbstractItemView::indicator:unchecked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-unchecked.svg);
+}
+QAbstractItemView::indicator:checked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-checked.svg);
+}
+
+QAbstractSpinBox {
+	border: 1px solid #3B4252;
+	padding: 2px;
+}
+QAbstractSpinBox::disabled {
+	border: none;
+	background-color: #434C5E;
+}
+QAbstractSpinBox:focus {
+	border: 1px solid #007acc;
+}
+QAbstractSpinBox::up-button {
+	width: 8px;
+	padding: 0px 4px 0px 0px;
+	image: url($(AppDir)/global/themes/default/images/button-up.svg);
+}
+QAbstractSpinBox::down-button {
+	width: 8px;
+	padding: 0px 4px 4px 0px;
+	image: url($(AppDir)/global/themes/default/images/button-down.svg);
+}
+
+QListView:item:hover {
+	background-color: #80434C5E;
+}
+QListView::indicator {
+	position: absolute;
+	left: -4px;
+	width: 24px;
+	height: 24px;
+}
+QTreeView QLabel {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+QHeaderView::section {
+	background-color: #2E3440;
+}
+QListWidget, QTreeWidget, QTableWidget {
+	border: 1px solid #3B4252;
+}
+QTableWidget::item {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+QCheckBox::indicator {
+	width: 24px;
+	height: 24px;
+}
+QCheckBox::indicator:checked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-checked.svg);
+}
+QCheckBox::indicator:unchecked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-unchecked.svg);
+}
+QCheckBox::indicator::disabled {
+	image: url($(AppDir)/global/themes/default/images/checkbox-disabled.svg);
+}
+
+QComboBox {
+	border: 1px solid #3B4252;
+	height: 21px;
+	padding: 0px 4px 0px 2px;
+}
+QComboBox::disabled {
+	border: none;
+	background-color: #434C5E;
+}
+QComboBox:focus {
+	border: 1px solid #007acc;
+}
+QComboBox QLineEdit, QComboBox QLineEdit:focus {
+	padding: 0px;
+	border: none;
+	background-color: transparent;
+}
+QComboBox::drop-down {
+	width: 8px;
+	padding-right: 4px;
+	image: url($(AppDir)/global/themes/default/images/button-down.svg);
+}
+
+QDialog QFrame[frameShape = "4"] {
+	color: #3B4252;
+}
+
+QLineEdit {
+	padding: 2px;
+	border: 1px solid #3B4252;
+}
+QLineEdit::disabled {
+	border: 1px solid transparent;
+	background-color: #434C5E;
+}
+QLineEdit:focus {
+	border: 1px solid #007acc;
+}
+QLineEdit > SwitchButton:Checked {
+	border: 2px solid #434C5E;
+	padding: 4px;
+	background-color: #30acacac;
+}
+QLineEdit > SideButton:hover, QLineEdit > SwitchButton:hover {
+	border: 1px solid #acacac;
+	background-color: #30acacac;
+}
+QLineEdit > SideButton:pressed, QLineEdit > SwitchButton:pressed {
+	border: 1px solid #acacac;
+	background-color: #60acacac;
+}
+QLineEdit > #CompleterButton {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+QLineEdit > #CompleterButton:checked {
+	border: none;
+	background-color: transparent;
+}
+
+QMenuBar {
+	border-bottom: 1px solid #3B4252;
+	padding: 1px;
+}
+QMenuBar::item {
+	margin-top: 6px;
+	padding: 2px 4px 2px 4px;
+}
+QMenuBar::item:pressed, QMenuBar::item:selected {
+	background-color: #007acc;
+}
+
+QMenu {
+	border: 1px solid #3B4252;
+	background-color: #434C5E;
+}
+QMenu::item {
+	padding: 6px 24px 6px 12px;
+	background-color: #434C5E;
+}
+QMenu::item:default {
+	font-weight: bold;
+	color: white;
+}
+QMenu::item:disabled {
+	color: #555555;
+}
+QMenu::item:selected {
+	border: none;
+	background-color: #007acc;
+}
+QMenu::indicator {
+	padding-right: -4px;
+	width: 24px;
+	height: 24px;
+}
+QMenu::indicator:non-exclusive:unchecked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-unchecked.svg);
+}
+QMenu::indicator:non-exclusive:checked {
+	image: url($(AppDir)/global/themes/default/images/checkbox-checked.svg);
+}
+QMenu::indicator:exclusive:unchecked {
+	image: url($(AppDir)/global/themes/default/images/radiobox-unchecked.svg);
+}
+QMenu::indicator:exclusive:checked {
+	image: url($(AppDir)/global/themes/default/images/radiobox-checked.svg);
+}
+QMenu::icon {
+	margin: 6px;
+	padding: 1px;
+	width: 24px;
+	height: 24px;
+}
+QMenu::icon:checked {
+	border: 1px solid #555555;
+	background-color: #3B4252;
+}
+QMenu::separator {
+	height: 1px;
+	background-color: #555555;
+}
+QMenu::right-arrow {
+	position: relative;
+	left: -10px;
+}
+QMenu FilterEdit > #CountLabel {
+	padding-right: 2px;
+	background-color: transparent;
+}
+
+QPlainTextEdit {
+	border: 1px solid #3B4252;
+	padding: 2px;
+}
+QPlainTextEdit::disabled {
+	border: none;
+	background-color: #434C5E;
+}
+QPlainTextEdit:focus {
+	border: 1px solid #007acc;
+}
+
+QProgressBar {
+	text-align: center;
+}
+QProgressBar::chunk:!active {
+	background-color: #0183EA; /* Should same as the normal background color of progressbar chunk. */
+}
+QProgressBar[state = "Error"]::chunk {
+	background-color: red;
+}
+
+QRadioButton::indicator {
+	width: 24px;
+	height: 24px;
+}
+QRadioButton::indicator:checked {
+	image: url($(AppDir)/global/themes/default/images/radiobox-checked.svg);
+}
+QRadioButton::indicator:unchecked {
+	image: url($(AppDir)/global/themes/default/images/radiobox-unchecked.svg);
+}
+QRadioButton::indicator::disabled {
+	image: url($(AppDir)/global/themes/default/images/radiobox-disabled.svg);
+}
+
+QScrollBar {
+	border: none;
+	background-color: transparent;
+	margin: 0px 0px 0px 0px;
+}
+QScrollBar:horizontal {
+	height: 8px;
+}
+QScrollBar:vertical {
+	width: 8px;
+}
+QScrollBar::handle {
+	background-color: #40c0c0c0;
+}
+QScrollBar::handle:horizontal {
+	min-width: 20px;
+}
+QScrollBar::handle:vertical {
+	min-height: 20px;
+}
+QScrollBar::handle:hover {
+	background-color: #40a6a6a6;
+}
+QScrollBar::handle:disabled {
+	background-color: none;
+}
+QScrollBar::add-line, QScrollBar::sub-line {
+	width: 0px;
+	height: 0px;
+}
+
+QSizeGrip {
+	width: 0px;
+	height: 0px;
+}
+
+QSplitter::handle:horizontal {
+	width: 1px;
+	background-color: #3B4252;
+}
+QSplitter::handle:vertical {
+	height: 1px;
+	background-color: #3B4252;
+}
+
+QStatusBar QLabel {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+QStatusBar[messageLevel = "NormalMessage"], QStatusBar[messageLevel = "NormalMessage"] > * {
+	color: #bbbbbb;
+}
+QStatusBar[messageLevel = "InfoMessage"], QStatusBar[messageLevel = "InfoMessage"] > * {
+	background-color: #007acc;
+	color: white;
+}
+QStatusBar[messageLevel = "WarningMessage"], QStatusBar[messageLevel = "WarningMessage"] > * {
+	background-color: chocolate;
+	color: white;
+}
+QStatusBar[messageLevel = "ErrorMessage"], QStatusBar[messageLevel = "ErrorMessage"] > * {
+	background-color: deeppink;
+	color: white;
+}
+
+QTabBar::scroller {
+	width: 0px;
+}
+QTabBar::tear {
+	image: none;
+}
+QTabBar::tab {
+	background-color: #434C5E;
+	border-left: 1px solid #2E3440;
+	height: 24px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+QTabBar::tab:first {
+	border-color: transparent;
+}
+QTabBar::tab:selected {
+	color: white;
+	border-right: 1x solid #2E3440;
+	background-color: #2E3440;
+}
+QTabBar::tab:!selected:hover {
+	background-color: #3B4252;
+}
+
+QTabWidget:pane {
+	border: 1px solid #434C5E;
+}
+QTabWidget:tab-bar {
+	bottom: -1px;
+}
+QTabWidget QTabBar::tab:selected {
+	border-top: 1px solid #434C5E;
+}
+QTabWidget QTabBar::tab:first {
+	border-left: 1px solid #434C5E;
+}
+QTabWidget QTabBar::tab:last {
+	border-right: 1px solid #434C5E;
+}
+
+QToolBar {
+	border: 2px solid transparent;
+	margin-top: 2px;
+	spacing: 2px;
+}
+QToolBar::separator {
+	width: 1px;
+	background-color: #555555;
+}
+QToolBar QLabel {
+	padding: 4px;
+}
+
+QToolButton:hover {
+	background-color: #434C5E;
+}
+QToolButton::menu-indicator {
+	image: none;
+}
+
+QToolTip {
+	font-family: "Roboto Mono", "Fira Code";
+	font-size: 9pt;
+	color: #bbbbbb;
+	background-color: #434C5E;
+	border: 1px solid #2E3440;
+	padding: 4px;
+}
+
+AddressBar > Completer > QListView {
+	border: none;
+	border-bottom: 1px solid #3B4252;
+	selection-background-color: #434C5E;
+}
+AddressBar > Completer > QListView #CategoryLabel {
+	border: none;
+	border-right: 1px solid #3B4252;
+	padding-right: 2px;
+}
+EditorWindow #CategoryLabel {
+	min-width: 130px;
+	max-width: 130px;
+}
+TerminalWindow #CategoryLabel {
+	min-width: 104px;
+	max-width: 104px;
+}
+AddressBar > Completer > QListView #CategoryLabel[category = "Opened"] {
+	color: mediumseagreen;
+}
+AddressBar > Completer > QListView #CategoryLabel[category = "Recent"] {
+	color: darkorange;
+}
+AddressBar > Completer > QListView #IconLabel {
+	padding: 0px;
+}
+AddressBar > Completer > QListView #SubtitleLabel {
+	color: #007acc;
+}
+AddressBar > Completer > QListView #TitleLabel {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+AddressBar > QLineEdit {
+	padding: 4px;
+	border: none;
+	background-color: #434C5E;
+}
+AddressBar > QLineEdit > BreadButton {
+	background-color: transparent;
+}
+AddressBar > QLineEdit > BreadButton[type = "ArrowButton"], AddressBar > QLineEdit > BreadButton[type = "ChevronButton"] {
+	padding-left: -4px;
+	padding-right: -4px;
+}
+AddressBar > QLineEdit > BreadButton[type = "TextButton"] {
+	padding-right: -4px;
+}
+AddressBar > QLineEdit > BreadButton[partial = true] {
+	color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop: 0.0 #bbbbbb stop: 0.5 darkgray stop: 1.0 #434C5E);
+}
+AddressBar > QLineEdit > BreadButton[important = false] {
+	color: #bbbbbb;
+}
+AddressBar > QLineEdit > BreadButton:hover, AddressBar > QLineEdit > BreadButton:pressed {
+	background-color: #007acc;
+	color: white;
+}
+
+CommandPalette {
+	background-color: #2E3440;
+	border: 1px solid #3B4252;
+}
+CommandPalette > QLineEdit {
+	font-size: 10pt;
+}
+CommandPalette > QLineEdit #CountLabel {
+	padding-right: 2px;
+	background-color: transparent;
+}
+CommandPalette > QListView {
+	background-color: transparent;
+	border: none;
+}
+CommandPalette > QListView::item::selected {
+	background-color: #434C5E;
+}
+CommandPalette > QListView[singleLine=true] #SubtitleLabel {
+	color: gray;
+}
+CommandPalette > QListView[singleLine=true] #TipLabel {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+ExplorerPane QWidget,
+ExplorerPane QToolButton:hover {
+	border: none;
+	background-color: transparent;
+}
+ExplorerPane #StateLabel {
+	background-color: transparent;
+	min-width: 6px;
+	max-width: 6px;
+}
+ExplorerPane #StateLabel[state = "Warning"] {
+	background-color: darkorange;
+}
+ExplorerPane #StateLabel[state = "Error"] {
+	background-color: red;
+}
+ExplorerPane #StateLabel[state = "Changed"] {
+	background-color: dodgerblue;
+}
+ExplorerPane #StateLabel[state = "Saved"] {
+	background-color: mediumseagreen;
+}
+ExplorerPane #StateLabel[channel = "A"] {
+	background-color: deeppink;
+}
+ExplorerPane #StateLabel[channel = "B"] {
+	background-color: dodgerblue;
+}
+ExplorerPane #StateLabel[channel = "C"] {
+	background-color: darkorange;
+}
+ExplorerPane #StateLabel[channel = "D"] {
+	background-color: mediumseagreen;
+}
+
+FocusModeDialog QToolButton:checked {
+	background-color: #007acc;
+}
+
+KitBar {
+	qproperty-iconSize: 20px;
+}
+KitBar, KitBar QWidget {
+	border: none;
+	background-color: #2E3440;
+}
+KitBar QToolButton {
+	padding: 6px 6px 6px 6px;
+	border-left: 4px solid transparent;
+}
+KitBar QToolButton:checked {
+	border-left: 4px solid #007acc;
+}
+
+KitPane > QFrame {
+	border: none;
+}
+KitPane FilterEdit {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #3B4252;
+}
+KitPane FilterEdit:focus {
+	border: none;
+	border-bottom: 1px solid #007acc;
+}
+
+ListPanel {
+	border: 1px solid #3B4252;
+}
+ListPanel ListWidget {
+	border: none;
+	border-bottom: 1px solid #3B4252; 
+}
+ListPanel QToolButton {
+	border: none;
+} 
+
+LockScreen #TitleLabel {
+	color: #41adff;
+	font-size: 11pt;
+}
+
+LoginWizard > QFrame {
+	border: 1px solid #3B4252;
+	background-color: #2E3440;
+}
+LoginWizard > QLabel {
+	color: #41adff;
+	font-size: 11pt;
+	padding: 8px;
+}
+
+#MenuBarCorner #FocusModeButton,
+#MenuBarCorner #TunnelsButton {
+	padding-right: -12px;
+}
+#MenuBarCorner #FocusModeButton:checked {
+	border: none;
+	background-color: #007acc;
+}
+
+MessageBar {
+	border-top: 1px solid #434C5E;
+	border-bottom: 1px solid #434C5E;
+	background-color: transparent;
+}
+MessageBar QLabel {
+	background-color: transparent;
+}
+MessageBar #IconLabel[state = "Critical"] {
+	qproperty-pixmap: url($(AppDir)/global/themes/default/images/critical.svg);
+}
+MessageBar #IconLabel[state = "Information"] {
+	qproperty-pixmap: url($(AppDir)/global/themes/default/images/information.svg);
+}
+MessageBar #IconLabel[state = "Question"] {
+	qproperty-pixmap: url($(AppDir)/global/themes/default/images/question.svg);
+}
+MessageBar #IconLabel[state = "Warning"] {
+	qproperty-pixmap: url($(AppDir)/global/themes/default/images/warning.svg);
+}
+MessageBar #CloseButton {
+	background-color: transparent;
+	border: none;
+	image: url($(AppDir)/global/themes/default/images/close-normal.svg);
+}
+MessageBar #CloseButton:hover {
+	image: url($(AppDir)/global/themes/default/images/close-hover.svg);
+}
+MessageBar #ExpandButton {
+	background-color: transparent;
+	border: none;
+}
+MessageBar #PauseButton[state = "Paused"] {
+	color: deeppink;
+}
+
+#PaneGroup > QTabBar::tab {
+	max-width: 160px;
+}
+
+PopupWidget, PopupWidget QWidget {
+	background-color: #434C5E;
+}
+PopupWidget QLabel[enabled=false] {
+	color: darkgray;
+}
+
+QuickBar #CloseButton, QuickBar #ConfigButton {
+	border: none;
+}
+QuickBar #QuickButton {
+	border: none;
+	padding: 4px 16px 4px 16px;
+}
+QuickBar #ActionButton {
+	padding: 0px -10px 0px 0px;
+}
+
+SearchPane > QLineEdit[state = "Error"] {
+	border: 1px solid deeppink;
+}
+SearchPane > QToolButton {
+	background-color: transparent;
+	border: none;
+}
+
+ShellPane > TabGroup > QTabBar::tab {
+	background-color: #2E3440;
+}
+ShellPane > TabGroup > QTabBar::tab:selected {
+	border-bottom: 2px solid #007acc;
+}
+
+SideSeparator {
+	background-color: #3B4252;
+}
+
+SlipButton {
+	qproperty-checkedColor: #007acc;
+	qproperty-errorColor: brown;
+	qproperty-handleColor: white;
+	qproperty-uncheckedColor: #434C5E;
+	qproperty-warningColor: orange;
+}
+
+TabBar {
+	qproperty-highlightBottomRight: 2px 2px;
+	qproperty-highlightTopLeft: 3px 3px;
+	qproperty-showSelectedTabCloseButtonOnly: true;
+}
+
+TabGroup QToolButton {
+	background-color: transparent;
+	border: none;
+}
+TabGroup #TextLabel {
+	padding-left: 4px;
+	qproperty-alignment: 'AlignVCenter | AlignLeft';
+}
+TabGroup #TextLabel[state = "Unactivated"] {
+	font-style: italic;
+	color: darkgray;
+}
+TabGroup #TextLabel[state = "Warning"] {
+	color: darkorange;
+}
+TabGroup #TextLabel[state = "Error"] {
+	color: red;
+}
+TabGroup #TextLabel[state = "Changed"] {
+	color: dodgerblue;
+}
+TabGroup #TextLabel[state = "Saved"] {
+	color: mediumseagreen;
+}
+TabGroup #CloseButton[state = "Unactivated"] {
+	image: url($(AppDir)/global/themes/default/images/close-unactivated.svg);
+}
+TabGroup #CloseButton[state = "Normal"] {
+	image: url($(AppDir)/global/themes/default/images/close-normal.svg);
+}
+TabGroup #CloseButton[state = "Warning"] {
+	image: url($(AppDir)/global/themes/default/images/close-warning.svg);
+}
+TabGroup #CloseButton[state = "Error"] {
+	image: url($(AppDir)/global/themes/default/images/close-error.svg);
+}
+TabGroup #CloseButton[state = "Changed"] {
+	image: url($(AppDir)/global/themes/default/images/close-changed.svg);
+}
+TabGroup #CloseButton[state = "Saved"] {
+	image: url($(AppDir)/global/themes/default/images/close-saved.svg);
+}
+
+#TabListMenu #MenuItemWidget,
+#TabListMenu #MenuItemWidget QWidget {
+	background-color: transparent;
+}
+#TabListMenu #CloseButton {
+	border: none;
+	image: url($(AppDir)/global/themes/default/images/close-normal.svg);
+}
+#TabListMenu #CloseButton:hover {
+	image: url($(AppDir)/global/themes/default/images/close-hover.svg);
+}
+#TabListMenu #MenuItemWidget[state = "Active"] {
+	background-color: #007acc;
+}
+#TabListMenu #TextLabel[default = "true"] {
+	color: white;
+	font-weight: bold;
+}
+#TabListMenu #TextLabel[state = "Active"] {
+	color: white;
+}
+
+TablePanel {
+	border: 1px solid #3B4252;
+}
+TablePanel QTableWidget {
+	border: none;
+	border-bottom: 1px solid #3B4252; 
+}
+TablePanel QToolButton {
+	border: none;
+}
+
+#ToolBarPopup QLabel {
+	border: none;
+	border-bottom: 1px solid darkgray;
+	color: darkgray;
+	padding-bottom: 4px;
+	margin-bottom: 6px;
+}
+#ToolBarPopup QToolButton[popupMode="1"] {
+	margin-left: 20px;
+}
+
+TextView CompleteList {
+	background-color: transparent;
+	border: 1px solid #3B4252;
+	selection-color: white;
+}
+TextView CompleteList::item {
+	background-color: #2E3440;
+}
+TextView CompleteList::item:selected {
+	background-color: #007acc;
+}
+TextView > QFrame {
+	border: none;
+}
+TextView > QAbstractScrollArea QScrollBar {
+	background-color: #2E3440;
+	border: none;
+	margin: 0px;
+}
+TextView > QAbstractScrollArea QScrollBar:vertical {
+	width: 16px;
+}
+
+#TextPreview {
+	background-color: #207050F0;
+	border-left: none;
+	border-top: 2px solid #7050F0;
+	border-right: none;
+	border-bottom: 2px solid #7050F0;
+}
+
+TransferBar #CloseButton {
+	border: none;
+}
+
+TransferLabel {
+	border: none;
+	border-right: 1px solid #3B4252;
+	qproperty-progressColor: #0183EA; /* Should same as the normal background color of progressbar chunk. */
+}
+TransferLabel[state = "Error"] {
+	qproperty-progressColor: red; /* Should same as the error background color of progressbar chunk. */
+}
+TransferLabel:hover {
+	background-color: #434C5E;
+}
+TransferLabel QWidget {
+	background-color: transparent;
+}
+TransferLabel QToolButton:hover {
+	background-color: #222222;
+}
+
+#ViewGroup > QTabBar::tab {
+	max-width: 200px;
+	min-width: 80px;
+}
+#ViewGroup > QTabBar::tab:selected {
+	border-top: 2px solid #007acc;
+}

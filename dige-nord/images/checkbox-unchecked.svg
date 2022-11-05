@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="191px" height="191px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 88 88"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g id="checkbox-unchecked">
+  <rect fill="white" stroke="black" stroke-width="2.70744" x="28" y="19" width="50.4304" height="50.4304"/>
+  <polyline fill="none" stroke="#none" stroke-width="9.74625" points="72,32 49,56 34,41 "/>
+  <rect fill="none" width="87.5657" height="87.5657"/>
+ </g>
+</svg>
