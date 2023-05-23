@@ -82,7 +82,7 @@ QAbstractSpinBox::down-button {
 }
 
 QListView:item:hover {
-	background-color: #80434C5E;
+	background-color: #434C5E;
 }
 QListView::indicator {
 	position: absolute;
@@ -204,7 +204,7 @@ QMenu::item:default {
 	color: white;
 }
 QMenu::item:disabled {
-	color: #555555;
+	color: #C85862;
 }
 QMenu::item:selected {
 	border: none;
