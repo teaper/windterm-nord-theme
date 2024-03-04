@@ -53,6 +53,8 @@
 #filerPane      		.brush { fill: #5461A1; }
 #logo					.brush { fill: #E62129; }
 #monoLogo				.brush { fill: #D8DEE9; }
+#oneKeyAccount			.brush { fill: mediumseagreen; }
+#oneKeySSH				.brush { fill: deeppink; }
 #outlinePane    		.brush { fill: #A0D9F6; }
 #outputPane     		.brush { fill: #ACCE22; }
 #projectPane    		.brush { fill: #F4B3B3; }
@@ -86,8 +88,8 @@
 	font-family: 'Roboto Mono';
 	font-size: 255.212px;
 	font-weight: normal;
-	fill: #2E3440;
-	stroke: #2E3440;
+	fill: white;
+	stroke: white;
 	stroke-width: 2.96615;
 }
 .symbolTunnel {
